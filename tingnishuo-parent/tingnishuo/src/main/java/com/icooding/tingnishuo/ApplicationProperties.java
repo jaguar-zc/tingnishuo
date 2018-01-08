@@ -1,4 +1,4 @@
-package com.tingnishuo;
+package com.icooding.tingnishuo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

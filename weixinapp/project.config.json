@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.7.2",
 	"appid": "wx1a50f56b705ef5d1",
-	"projectname": "说我听",
+	"projectname": "%E8%AF%B4%E6%88%91%E5%90%AC",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -24,19 +24,19 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "App 分享消息卡片",
-					"pathName": "pages/index/index",
-					"query": "",
+					"id": 0,
+					"name": "点击卡片分享耶",
+					"pathName": "pages/go/go",
+					"query": "id=16",
 					"scene": "1036",
 					"referrerInfo": {
 						"appId": "wx1a50f56b705ef5d1"
 					}
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "App 分享消息卡片",
-					"pathName": "pages/more/more",
+					"pathName": "pages/share/share",
 					"query": "",
 					"scene": "1036",
 					"referrerInfo": {

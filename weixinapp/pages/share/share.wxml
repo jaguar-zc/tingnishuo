@@ -1,0 +1,4 @@
+<!--pages/share.wxml-->
+ <view class="rows">
+      <button open-type="share" hover-class="btn-hover" bindtap='onCommit' class="btn">分享给朋友</button>
+    </view>

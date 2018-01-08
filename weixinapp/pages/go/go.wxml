@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container column">
+  <view class="form column">
+    <image class="userinfo-avatar" src="{{packetRed.userinfoLogo}}"></image>
+ <view class="usermotto">
+    <text  class="user-motto">{{packetRed.username}}</text>
+  </view>
+   <view class="usermotto">
+    <text  class="user-motto"> {{packetRed.word}}</text>
+  </view>
+    <view class="rows">
+      
+    </view>
+    <view class="line-50" />
+  </view>
+  
+</view>
