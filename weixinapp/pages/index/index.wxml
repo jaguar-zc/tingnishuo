@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container column">
+  <view class="form column">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+    <view class="rows row-s">
+      <view class="section__title">设置口令</view>
+      <input name="input" type="text" placeholder-class="input-placeholder" placeholder="{{placeholder}}" />
+    </view>
+    <view class="leftline">
+      <view>说对口令，获得奖励</view> 
+      <image class='feedback'  bindtap='bindViewTap'   src="/resources/images/icon/feedback.png"></image>
+    </view>
+    <view class="rows row-s">
+      <view class="section__title">赏金(元)</view>
+      <input name="input" type="digit" maxlength="3" bindinput="inputMoney"  placeholder-class="input-placeholder" placeholder="填写金额" />
+    </view>
+    <view class="rows row-s">
+      <view class="section__title">数量(个)</view>
+      <input name="input" type="number"  bindinput="inputNumber" maxlength="3" placeholder-class="input-placeholder" placeholder="填写数量" />
+    </view>
+    <view class="line-50" />
+    <view class="row row-s">
+      <text class="more">需要支付￥{{weixinPay}},优先使用余额￥{{balancePay}}</text>
+    </view>
+    <view class="rows">
+      <button hover-class="btn-hover" class="btn">生成语音口令</button>
+    </view>
+    <view class="line-50" />
+  </view>
+  <view class="usermotto">
+    <text bindtap='bindViewTap' class="user-motto">{{motto}}</text>
+  </view>
+</view>

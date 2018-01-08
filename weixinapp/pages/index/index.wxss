@@ -1,0 +1,87 @@
+/**index.wxss**/
+.form {
+  margin-top: 100rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx; 
+  background-color: white;
+  width:85%;
+  padding: 20rpx;
+  padding-bottom: 50rpx;
+  box-shadow:5rpx 5rpx 5rpx #888888;
+}
+
+input{
+  border-bottom: 1rpx #eeeeee solid;
+  height: 100%;
+}
+
+.leftline{
+  left: 0rpx; 
+  font-size: 10pt;
+  color: #B2B2B2;
+   display: flex;
+  flex-direction: row; 
+  width: 90%;
+   margin-top: 10rpx;
+}
+
+.feedback{
+  width: 40rpx;
+  height: 40rpx;
+ 
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  margin-top:-50rpx; 
+}
+.input-placeholder{
+  color: #B2B2B2;
+  font-size: 12pt;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100rpx; 
+  border-bottom: 1rpx #888888 solid;
+  font-size: 12pt;
+}
+
+
+
+.btn{
+  background-color: #f11d1d;
+  width: 100%;
+  border-radius: 50rpx;
+  margin: 10rpx;
+  padding-left: 150rpx;
+  padding-right: 150rpx;
+  color: white; 
+}
+
+.btn-hover{
+ opacity: 0.5;
+}
+
+.more{
+  font-size: 9pt;
+  color: #B2B2B2;
+}
+
+
+
+.row-s{ 
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.section__title{
+  color: #353535; 
+  width: 200rpx; 
+}

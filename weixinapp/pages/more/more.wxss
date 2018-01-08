@@ -1,0 +1,31 @@
+
+
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 10rpx; 
+} 
+.more-text{
+   height: 80rpx;
+  line-height: 80rpx;
+  margin-left: 10rpx;
+  width: 90%;
+}
+
+.item{
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  background-color: white;
+  width: 98%; 
+  margin: 10rpx;
+  color: black;
+  font-size: 12pt;
+}
+
+.item-desc{
+  border-top: 1rpx #eeeeee solid;
+  margin-bottom: 10rpx;
+  padding-top: 10rpx;
+  padding: 10rpx;
+  color: #B2B2B2;
+}

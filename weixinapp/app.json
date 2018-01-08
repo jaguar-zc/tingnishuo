@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/more/more"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f11d1d",
+    "navigationBarTitleText": "说我听",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eeeeee"
+  }
+}

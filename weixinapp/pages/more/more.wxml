@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container column">
+  <view class="line-50"></view>
+  <view wx:for="{{mores}}"  wx:for-item="more" class="item">
+    <view class="rows" bindtap="display" data-more="{{more}}">
+      <view class="more-text">{{more.name}}</view>
+      <image class="icon" src='/resources/images/icon/viewlist.png' ></image>
+    </view>
+    <view wx:if="{{more.display}}" class="item-desc"> {{more.value}} </view>
+  </view>
+</view>

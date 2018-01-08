@@ -1,0 +1,35 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  width: 100%; 
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+} 
+
+page{
+  background-color: #eeeeee;
+  font-size: 14pt;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row; 
+}
+
+.line-10{
+  height: 10rpx;
+}
+
+.line-20{
+  height: 20rpx;
+}
+
+.line-50{
+  height: 50rpx;
+}

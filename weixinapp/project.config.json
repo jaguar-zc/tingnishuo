@@ -1,0 +1,49 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.2",
+	"appid": "wx1a50f56b705ef5d1",
+	"projectname": "说我听",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "App 分享消息卡片",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1036",
+					"referrerInfo": {
+						"appId": "wx1a50f56b705ef5d1"
+					}
+				},
+				{
+					"id": -1,
+					"name": "App 分享消息卡片",
+					"pathName": "pages/more/more",
+					"query": "",
+					"scene": "1036",
+					"referrerInfo": {
+						"appId": "wx1a50f56b705ef5d1"
+					}
+				}
+			]
+		}
+	}
+}
